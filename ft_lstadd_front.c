@@ -6,7 +6,7 @@
 /*   By: mmatos-d <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/08 17:46:59 by mmatos-d          #+#    #+#             */
-/*   Updated: 2026/06/08 17:47:30 by mmatos-d         ###   ########.fr       */
+/*   Updated: 2026/06/08 18:26:40 by mmatos-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
+	if (!new || !lst)
+		return ;
 	new->next = *lst;
 	*lst = new;
 }
