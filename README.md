@@ -25,7 +25,7 @@ make re
 ```
 
 ## Library Overview
-The library is divided into several categories of functions:
+The library contains several functions:
 - ft_isalpha
 - ft_isdigit
 - ft_isalnum
@@ -52,6 +52,10 @@ The library is divided into several categories of functions:
 - ft_atoi
 - ft_itoa
 - ft_calloc
+- ft_strlcpy
+- ft_strlcat
+- ft_strmapi
+- ft_striteri
 - ft_putchar_fd
 - ft_putstr_fd
 - ft_putendl_fd
@@ -69,6 +73,5 @@ The library is divided into several categories of functions:
 ## Resources
 Some resources used to understand the project:
 - C manual pages (man strlen, man memset, man malloc, etc.)
-https://man7.org/linux/man-pages/
 - 42 Libft subject
 - C documentation about pointers, memory allocation, and static libraries
