@@ -25,7 +25,6 @@ make re
 ```
 
 ## Library Overview
-The library contains several functions:
 - ft_isalpha
 - ft_isdigit
 - ft_isalnum
