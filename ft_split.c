@@ -41,7 +41,7 @@ static char	*ft_string(char const *s, char c)
 	i = 0;
 	while (s[i] && s[i] != c)
 		i++;
-	word = malloc(i + 1);
+	word = malloc(sizeof(char) * (i + 1));
 	if (word == NULL)
 		return (NULL);
 	i = 0;

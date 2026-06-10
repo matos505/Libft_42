@@ -25,12 +25,13 @@ make re
 ```
 
 ## Library Overview
+### Functions
 - ft_isalpha
 - ft_isdigit
 - ft_isalnum
 - ft_isascii
 - ft_isprint
-- ft_toupper
+- ft_toupper 
 - ft_tolower
 - ft_strlen
 - ft_strchr
